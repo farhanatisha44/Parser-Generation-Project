@@ -117,9 +117,3 @@ This is the contents of `Correct_input.txt`, which parses successfully against t
 - How a context-free grammar (CFG) written in ANTLR's `.g4` format is translated into a working lexer and parser.
 - How nested rules (e.g., `ifst` containing `block` containing `body` containing more `ifst`/`loopst`) produce a hierarchical parse tree.
 - The difference between a syntactically valid and invalid program under the same grammar, and how the parser surfaces that distinction.
-
-## Possible Improvements
-
-- Add a semantic analysis pass (type checking, scope resolution) on top of the parse tree.
-- Build an interpreter or AST-based evaluator to actually execute programs written in this language.
-- Add more example programs demonstrating each grammar feature (functions with arguments, nested elif chains, etc.).
